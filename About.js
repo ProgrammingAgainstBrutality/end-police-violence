@@ -13,7 +13,7 @@ const About = () => {
       <p>The creators of this site do not condone or encourage violence.</p>
       <p>This site is dedicated to sharing and preserving records of police violence during the 2020 protests sparked by the murder of George Floyd by ex-cop Derek Chauvin.</p>
       <p>From Martin Luther King Jr.:</p>
-      <quote>I think America must see that riots do not develop out of thin air. Certain conditions continue to exist in our society which must be condemned as vigorously as we condemn riots. But in the final analysis, a riot is the language of the unheard. And what is it that America has failed to hear? It has failed to hear that the plight of the Negro poor has worsened over the last few years. It has failed to hear that the promises of freedom and justice have not been met. And it has failed to hear that large segments of white society are more concerned about tranquility and the status quo than about justice, equality, and humanity. And so in a real sense our nation’s summers of riots are caused by our nation’s winters of delay. And as long as America postpones justice, we stand in the position of having these recurrences of violence and riots over and over again. Social justice and progress are the absolute guarantors of riot prevention.</quote>
+      <quote>I think America must see that riots do not develop out of thin air. Certain conditions continue to exist in our society which must be condemned as vigorously as we condemn riots. But in the final analysis, a riot is the language of the unheard.</quote>
     </div>
   )
 }
