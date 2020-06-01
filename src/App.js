@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import VideoCard from './VideoCard'
 import About from './About'
+import HowToDownload from './HowToDownload'
 import './App.css';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
        <h2 className="subtitle">Records of Police Brutality During the 2020 George Floyd Protests</h2>
        <h4 className="warning"><strong>Please be advised - Videos contain graphic content</strong></h4>
        <About />
+       <HowToDownload />
       </header>
       <main>
       <table>
