@@ -8,10 +8,10 @@ const HowToDownload = () => {
       <Modal.Content>
         <Modal.Description>
           <Header>How to Download Programmatically</Header>
-          <p>All video information for this site is stored <a href="https://raw.githubusercontent.com/ProgrammingAgainstBrutality/end-police-violence/master/videos.json">in a JSON file</a></p>
+          <p>All video information for this site is stored <a href="https://raw.githubusercontent.com/ProgrammingAgainstBrutality/end-police-violence/master/videos.json" target="_blank" rel="noopener noreferrer">in a JSON file</a></p>
 
           <p>If you're using a Mac, you can quickly download all the videos compiled here
-          via the terminal. First, if you don't have it, install <a href="https://brew.sh/" target="_blank">Homebrew</a>:</p>
+          via the terminal. First, if you don't have it, install <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a>:</p>
 
           <div className="code">
             <code>
@@ -19,7 +19,7 @@ const HowToDownload = () => {
             </code>
           </div>
 
-          <p>Then, install <a href="https://stedolan.github.io/jq/download/"><code>jq</code></a> and <a href="https://github.com/ytdl-org/youtube-dl">youtube-dl</a>:</p>
+          <p>Then, install <a href="https://stedolan.github.io/jq/download/" target="_blank" rel="noopener noreferrer"><code>jq</code></a> and <a href="https://github.com/ytdl-org/youtube-dl" target="_blank" rel="noopener noreferrer">youtube-dl</a>:</p>
 
           <div className="code">
             <code>
@@ -44,12 +44,12 @@ const HowToDownload = () => {
 
           <p>To manually download these videos, copy the source link for each video displayed on the site and paste into one of the following online downloaders:</p>
 
-          <li>For Reddit videos, we used <a href="https://redv.co/">https://redv.co/</a> (Note: online version does not
+          <li>For Reddit videos, we used <a href="https://redv.co/" target="_blank" rel="noopener noreferrer">https://redv.co/</a> (Note: online version does not
           perserve sound)</li>
 
-          <li>For Twitter videos: <a href="https://twdownload.com/">https://twdownload.com/</a></li>
+          <li>For Twitter videos: <a href="https://twdownload.com/" target="_blank" rel="noopener noreferrer">https://twdownload.com/</a></li>
 
-          <li>For YouTube and Streamable: <a href="https://keepv.id/">https://keepv.id/</a></li>
+          <li>For YouTube and Streamable: <a href="https://keepv.id/" target="_blank" rel="noopener noreferrer">https://keepv.id/</a></li>
 
         </Modal.Description>
       </Modal.Content>
