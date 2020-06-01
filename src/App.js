@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import VideoCard from './VideoCard'
+import About from './About'
 import './App.css';
 
 function App() {
@@ -29,9 +30,10 @@ function App() {
   return (
     <div className="App">
       <header>
-       <h1>End Police Violence</h1>
-       <h2>Records of Police Brutality during the 2020 George Floyd Protests</h2>
-       <h4>Please be advised - graphic content shared</h4>
+       <h1 className="title">End Police Violence</h1>
+       <h2 className="subtitle">Records of Police Brutality during the 2020 George Floyd Protests</h2>
+       <h4 className="warning"><strong>Please be advised - Videos contain graphic content</strong></h4>
+       <About />
       </header>
       <main>
       <table>
