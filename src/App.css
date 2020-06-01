@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.rowTitle {
+  text-align: left;
+  min-width: 200px;
+}
+
+.rowSource {
+  max-width: 150px;
+  word-wrap: break-word;
+}
+
+.title {
+  font-size: 300%;
+  margin: 0;
+}
+
+.subtitle {
+  margin: 0;
+}
+
+.warning {
+  color: red;
+  margin: 0;
+}
