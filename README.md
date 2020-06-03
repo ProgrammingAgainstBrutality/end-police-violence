@@ -1,6 +1,6 @@
 # End Police Violence
 
-[Live Site](recordpoliceviolence.com)
+[Live Site](http://recordpoliceviolence.com)
 
 The creators of this site do not condone or encourage violence.
 
