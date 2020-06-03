@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/end-police-violence/precache-manifest.d41fbb68c470cb87d67cef7584cf4ce9.js"
+  "/end-police-violence/precache-manifest.0440da059a7ce5c8b61832573ca44439.js"
 );
 
 self.addEventListener('message', (event) => {
