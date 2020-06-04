@@ -1,15 +1,15 @@
 import React, {useEffect} from 'react'
 import VideoCard from './VideoCard'
 
-const VideoRows = ({videos}) => {
-  
+const VideoRows = ({complaintUrls, videos}) => {
+
   useEffect(() => {
     console.log(videos)
   })
-  
+
   return (
     <>
-      {videos.map(video => <VideoCard key={video.id} {...video}/>)}
+      {videos.map(video => <VideoCard key={video.id} complaintUrls={complaintUrls} {...video}/>)}
     </>
   )
 }
