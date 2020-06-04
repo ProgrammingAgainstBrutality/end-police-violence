@@ -22,7 +22,7 @@ const VideoCard = (props) => {
 
     if (complaintUrl) {
       return (
-        <a href={complaintUrl}>
+        <a href={complaintUrl} target="_blank" rel="noreferrer noopener">
           <span>File a Complaint</span>
         </a>
       )
