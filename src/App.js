@@ -50,7 +50,7 @@ class App extends React.Component {
         <table>
           <thead>
             <tr>
-              <th>Video</th>
+              <th className="rowVideo">Video</th>
               <th onClick={e => this.onSort(e, 'title')}>Description</th>
               <th onClick={e => this.onSort(e, 'location')}>Location</th>
               <th onClick={e => this.onSort(e, 'source')}>Original Source</th>

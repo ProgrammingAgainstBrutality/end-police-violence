@@ -38,12 +38,10 @@
 }
 
 .rowTitle {
-  text-align: left;
   min-width: 200px;
 }
 
 .rowSource {
-  max-width: 150px;
   word-wrap: break-word;
 }
 
@@ -64,4 +62,41 @@
 .code {
   margin: 10px 0px;
   padding: 10px 0;
+}
+
+.video {
+  width: 560px;
+  height: 315px;
+}
+
+th {
+  text-align: center;
+}
+
+td { 
+  padding: 6px; 
+  text-align: left;   
+}
+
+@media only screen and (max-width: 960px) {
+  .video {
+    width: 98%;
+    height: 315px;
+  }
+  td {
+    display: block;
+    text-align: center;
+  }
+  .rowVideo {
+    width: 100%;
+  }
+  .rowSource {
+    width: 100vw;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  .rowDates {
+    visibility: hidden;
+    height: 0;
+  }
 }
