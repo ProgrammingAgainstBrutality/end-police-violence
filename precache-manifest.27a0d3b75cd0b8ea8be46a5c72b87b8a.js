@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34e110b377ab1b52b8394ee0d50e2082",
+    "revision": "f6685ec34d9922989d40205a04011ba0",
     "url": "/end-police-violence/index.html"
   },
   {
-    "revision": "45715bed69f4b0269713",
-    "url": "/end-police-violence/static/css/main.62a5f0f8.chunk.css"
+    "revision": "52c2ac4a682393e93ffc",
+    "url": "/end-police-violence/static/css/main.9f1b3a42.chunk.css"
   },
   {
     "revision": "41777c6e88d28e8a35e0",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/end-police-violence/static/js/2.945350fb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "45715bed69f4b0269713",
+    "revision": "52c2ac4a682393e93ffc",
     "url": "/end-police-violence/static/js/main.24f36f36.chunk.js"
   },
   {

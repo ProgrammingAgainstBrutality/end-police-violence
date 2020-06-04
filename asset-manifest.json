@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/end-police-violence/static/css/main.62a5f0f8.chunk.css",
+    "main.css": "/end-police-violence/static/css/main.9f1b3a42.chunk.css",
     "main.js": "/end-police-violence/static/js/main.24f36f36.chunk.js",
     "main.js.map": "/end-police-violence/static/js/main.24f36f36.chunk.js.map",
     "runtime-main.js": "/end-police-violence/static/js/runtime-main.2f5b696e.js",
@@ -8,15 +8,15 @@
     "static/js/2.945350fb.chunk.js": "/end-police-violence/static/js/2.945350fb.chunk.js",
     "static/js/2.945350fb.chunk.js.map": "/end-police-violence/static/js/2.945350fb.chunk.js.map",
     "index.html": "/end-police-violence/index.html",
-    "precache-manifest.51ef43f092e14109569cd5ec006729c1.js": "/end-police-violence/precache-manifest.51ef43f092e14109569cd5ec006729c1.js",
+    "precache-manifest.27a0d3b75cd0b8ea8be46a5c72b87b8a.js": "/end-police-violence/precache-manifest.27a0d3b75cd0b8ea8be46a5c72b87b8a.js",
     "service-worker.js": "/end-police-violence/service-worker.js",
-    "static/css/main.62a5f0f8.chunk.css.map": "/end-police-violence/static/css/main.62a5f0f8.chunk.css.map",
+    "static/css/main.9f1b3a42.chunk.css.map": "/end-police-violence/static/css/main.9f1b3a42.chunk.css.map",
     "static/js/2.945350fb.chunk.js.LICENSE.txt": "/end-police-violence/static/js/2.945350fb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2f5b696e.js",
     "static/js/2.945350fb.chunk.js",
-    "static/css/main.62a5f0f8.chunk.css",
+    "static/css/main.9f1b3a42.chunk.css",
     "static/js/main.24f36f36.chunk.js"
   ]
 }
