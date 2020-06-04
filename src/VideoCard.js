@@ -17,6 +17,20 @@ const VideoCard = (props) => {
     }
   }
 
+  const renderFileComplaint = () => {
+    const complaintUrl = complaintUrls[props.location]
+
+    if (complaintUrl) {
+      return (
+        <a href={complaintUrl}>
+          <span>File a Complaint</span>
+        </a>
+      )
+    }  else {
+      return null
+    }
+  }
+
   return (
     <tr>
       <td className="rowVideo">
@@ -25,6 +39,7 @@ const VideoCard = (props) => {
       </td>
       <td className="rowTitle">{props.title}</td>
       <td className="rowLocation">{handleLocation()}</td>
+      <td className="rowFileComplaint">{renderFileComplaint()}</td>
       <td className="rowSource"><a href={props.source} target="_blank" rel="noopener noreferrer">{props.source}</a></td>
       <td className="rowDates">{handleDate()}</td>
       <td className="rowDates">{props.uploadDate}</td>
