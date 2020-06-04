@@ -83,6 +83,9 @@ td {
     width: 98%;
     height: 315px;
   }
+  th {
+    visibility: hidden;
+  }
   td {
     display: block;
     text-align: center;
