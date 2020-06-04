@@ -2,11 +2,15 @@
 
 [Live Site](http://recordpoliceviolence.com)
 
-The creators of this site do not condone or encourage violence.
-
 This site is dedicated to sharing and preserving records of police violence
 during the 2020 protests sparked by the murder of George Floyd by ex-cop Derek
 Chauvin.
+
+The creator of this site does not condone or encourage violence. I do hope, though, that these videos show that the narrative portrayed in media is never the full picture, and that much of the protesting and rioting happening now is in response to violence and excessive force perpetrated by law enforcement.
+
+There are many articles and news reports focusing on looters and destruction. However, if all you see are these reports, it makes it easy to denounce the current protests. It also makes it easy to dismiss them even when you see evidence of police violence, as there is a feeling of comfort and moral 'high-ground' in declaring violence on both sides.
+
+Before dismissing what is going on or walking away because this subject is uncomfortable, I encourage you to <a href="https://twitter.com/clairewillett/status/1266894029498675200" target="_blank" rel="noopener noreferrer">read this</a> and <a href="https://vimeo.com/425192186" target="_blank" rel="noopener noreferrer">watch this</a>.
 
 From Martin Luther King Jr.:
 
@@ -15,6 +19,12 @@ From Martin Luther King Jr.:
 > vigorously as we condemn riots. But in the final analysis, a riot is the
 > language of the unheard.
 
+## How to Help
+
+There are many resources online that explain the current situation and how to help in the US far better than I can. <a href="https://blacklivesmatters.carrd.co/" target="_blank" rel="noopener noreferrer">Start by reading through the information here and seeing how you can help</a>
+
+Do not be silent. Fight racism and the systems that perpetuate and defend it. To be silent is to be complicit.
+
 ## Contributing
 
 The content on this site is static - there is no way to directly submit content.
@@ -22,7 +32,9 @@ If you have a video that you would like to contribute, please provide the
 information by [opening an issue here](https://github.com/ProgrammingAgainstBrutality/end-police-violence/issues/new).
 
 Please provide context and a source link, prefferably from Reddit, Twitter,
-Youtube or Streamable, so the content and be downloaded and preserved.
+Youtube or Streamable, so the content and be downloaded and preserved. **To protect
+protesters, no videos including protester faces or identifying features
+will be added to this site unless the video is clearly from a news outlet.**
 
 You can also contribute by downloading copies of these videos to help ensure
 they are preserved and continue to be shared in the event that the current
