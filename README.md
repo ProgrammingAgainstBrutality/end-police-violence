@@ -1,6 +1,6 @@
 # End Police Violence
 
-[Live Site](https://programmingagainstbrutality.github.io/end-police-violence/)
+[Live Site](http://recordpoliceviolence.com)
 
 The creators of this site do not condone or encourage violence.
 
