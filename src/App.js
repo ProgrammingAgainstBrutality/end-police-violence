@@ -8,11 +8,23 @@ import './App.css';
 class App extends React.Component {
 
   state = {
+    complaintUrls: {},
     videos: [],
     sortBy: ''
   }
 
   componentDidMount() {
+    this.fetchVideos()
+    this.fetchComplaintUrls()
+  }
+
+  fetchComplaintUrls() {
+    fetch('https://raw.githubusercontent.com/ProgrammingAgainstBrutality/end-police-violence/master/complaint-urls.json')
+    .then(response => response.json())
+    .then(complaintUrls => this.setState({complaintUrls}))
+  }
+
+  fetchVideos() {
     fetch('https://raw.githubusercontent.com/ProgrammingAgainstBrutality/end-police-violence/master/videos.json')
     .then(response => response.json())
     .then(videos => this.setState({videos}))
@@ -29,7 +41,7 @@ class App extends React.Component {
     } else {
       sortBy = sortKey
     }
-    
+
     this.setState((prevState) => ({
       videos,
       sortBy
@@ -53,20 +65,21 @@ class App extends React.Component {
               <th className="rowVideo">Video</th>
               <th onClick={e => this.onSort(e, 'title')}>Description</th>
               <th onClick={e => this.onSort(e, 'location')}>Location</th>
+              <th onClick={e => this.onSort(e, 'fileAComplaint')}>File a Complaint</th>
               <th onClick={e => this.onSort(e, 'source')}>Original Source</th>
               <th onClick={e => this.onSort(e, 'recordingDate')}>Recording Date</th>
               <th onClick={e => this.onSort(e, 'uploadDate')}>Upload Date</th>
             </tr>
           </thead>
           <tbody>
-            <VideoRows videos={this.state.videos}/>
+            <VideoRows complaintUrls={this.state.complaintUrls} videos={this.state.videos}/>
           </tbody>
         </table>
         </main>
       </div>
     );
   }
-  
+
 }
 
 export default App;
