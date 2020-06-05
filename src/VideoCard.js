@@ -32,18 +32,18 @@ const VideoCard = (props) => {
   }
 
   return (
-    <tr>
-      <td className="rowVideo">
+    <>
+      <div className="grid-item">
         <iframe title={props.title} className="video" src={props.url} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen">
         </iframe>
-      </td>
-      <td className="rowTitle">{props.title}</td>
-      <td className="rowLocation">{handleLocation()}</td>
-      <td className="rowFileComplaint">{renderFileComplaint()}</td>
-      <td className="rowSource"><a href={props.source} target="_blank" rel="noopener noreferrer">{props.source}</a></td>
-      <td className="rowDates">{handleDate()}</td>
-      <td className="rowDates">{props.uploadDate}</td>
-    </tr>
+      </div>
+      <div className="grid-item">{props.title}</div>
+      <div className="grid-item">{handleLocation()}</div>
+      <div className="grid-item">{renderFileComplaint()}</div>
+      <div className="grid-item"><a href={props.source} target="_blank" rel="noopener noreferrer">Source</a></div>
+      <div className="grid-item date">{handleDate()}</div>
+      <div className="grid-item date">{props.uploadDate}</div>
+    </>
   )
 }
 

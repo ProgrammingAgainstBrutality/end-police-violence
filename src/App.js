@@ -2,7 +2,7 @@ import React from 'react';
 
 import About from './About'
 import HowToDownload from './HowToDownload'
-import VideoRows from './VideoRows'
+import VideoCard from './VideoCard'
 import './App.css';
 
 class App extends React.Component {
@@ -10,13 +10,14 @@ class App extends React.Component {
   state = {
     complaintUrls: {},
     videos: [],
-    sortBy: ''
+    sortBy: 'uploadDateReverse'
   }
 
   componentDidMount() {
     this.fetchVideos()
     this.fetchComplaintUrls()
   }
+
 
   fetchComplaintUrls() {
     fetch('https://raw.githubusercontent.com/ProgrammingAgainstBrutality/end-police-violence/master/complaint-urls.json')
@@ -27,7 +28,10 @@ class App extends React.Component {
   fetchVideos() {
     fetch('https://raw.githubusercontent.com/ProgrammingAgainstBrutality/end-police-violence/master/videos.json')
     .then(response => response.json())
-    .then(videos => this.setState({videos}))
+    .then(videos => {
+      videos.reverse()
+      this.setState({videos})
+    })
   }
 
   onSort = (event, sortKey) => {
@@ -43,6 +47,7 @@ class App extends React.Component {
     }
 
     this.setState((prevState) => ({
+      ...prevState,
       videos,
       sortBy
     }))
@@ -59,22 +64,16 @@ class App extends React.Component {
          <HowToDownload />
         </header>
         <main>
-        <table>
-          <thead>
-            <tr>
-              <th className="rowVideo">Video</th>
-              <th onClick={e => this.onSort(e, 'title')}>Description</th>
-              <th onClick={e => this.onSort(e, 'location')}>Location</th>
-              <th onClick={e => this.onSort(e, 'fileAComplaint')}>File a Complaint</th>
-              <th onClick={e => this.onSort(e, 'source')}>Original Source</th>
-              <th onClick={e => this.onSort(e, 'recordingDate')}>Recording Date</th>
-              <th onClick={e => this.onSort(e, 'uploadDate')}>Upload Date</th>
-            </tr>
-          </thead>
-          <tbody>
-            <VideoRows complaintUrls={this.state.complaintUrls} videos={this.state.videos}/>
-          </tbody>
-        </table>
+        <div className="tbl-grid">
+          <div className="grid-item table-header">Video</div>
+          <div onClick={e => this.onSort(e, "title")} className="grid-item table-header">Description</div>
+          <div onClick={e => this.onSort(e, "location")} className="grid-item table-header">Location</div>
+          <div className="grid-item table-header">File a Complaint</div>
+          <div className="grid-item table-header">Original Source</div>
+          <div onClick={e => this.onSort(e, "recordingDate")} className="grid-item table-header">Recording Date</div>
+          <div onClick={e => this.onSort(e, "uploadDate")} className="grid-item table-header">Upload Date</div>
+          {this.state.videos.map(video => <VideoCard key={video.id} complaintUrls={this.state.complaintUrls} {...video}/>)}
+        </div>
         </main>
       </div>
     );
