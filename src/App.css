@@ -103,3 +103,29 @@ td {
     height: 0;
   }
 }
+
+@media only screen and (max-device-width: 560px) {
+  .video {
+    width: 98%;
+    height: 315px;
+  }
+  th {
+    visibility: hidden;
+  }
+  td {
+    display: block;
+    text-align: center;
+  }
+  .rowVideo {
+    width: 100%;
+  }
+  .rowSource {
+    width: 100vw;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  .rowDates {
+    visibility: hidden;
+    height: 0;
+  }
+}
