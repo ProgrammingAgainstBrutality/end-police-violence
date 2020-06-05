@@ -18,7 +18,7 @@ const VideoCard = (props) => {
   }
 
   const renderFileComplaint = () => {
-    const complaintUrl = complaintUrls[props.location]
+    const complaintUrl = props.complaintUrls[props.location]
 
     if (complaintUrl) {
       return (
